@@ -1,0 +1,38 @@
+{
+  "name": "bullsmediaexcersize",
+  "version": "22.11.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js",
+    "init-db": "node init_db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idofogel/bullsmediaexcersize.git"
+  },
+  "author": "Ido Fogel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idofogel/bullsmediaexcersize/issues"
+  },
+  "homepage": "https://github.com/idofogel/bullsmediaexcersize#readme",
+  "description": "",
+  "dependencies": {
+    "@pm2/io": "^6.1.0",
+    "ansis": "^4.1.0",
+    "chalk": "^5.4.1",
+    "cli-tableau": "^2.0.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "debug": "^4.4.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "fclone": "^1.0.11",
+    "ini": "^5.0.0",
+    "mysql2": "^3.14.2",
+    "pg": "^8.16.3",
+    "pm2": "^6.0.8",
+    "wrappy": "^1.0.2"
+  }
+}

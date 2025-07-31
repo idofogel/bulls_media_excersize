@@ -1,0 +1,15 @@
+config:
+  target: "http://127.0.0.1:3000"
+  phases:
+    - duration: 60
+      arrivalRate: 25  # 50 requests per second
+scenarios:
+  - flow:
+      - get:
+          url: "/?keyword=key&src=goog&creative=very"
+      - get:
+          url: "/retrieve_original?our_param=3~~~4%2C8~**~googkeyvery"
+      - get:
+          url: "/?keyword=poop&src=toos&creative=no"
+      - get:
+          url: "/retrieve_original?our_param=-3~~~4%2C3~**~googkeyvery"
